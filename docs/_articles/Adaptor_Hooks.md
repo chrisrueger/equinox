@@ -2,12 +2,11 @@
 layout: default
 title: Adaptor Hooks
 summary: All about Adaptor Hooks
-toc: true
-toc_sticky: true
 ---
 
 Adaptor Hooks
 =============
+
 
 
 Overview
