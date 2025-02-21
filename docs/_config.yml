@@ -1,1 +1,21 @@
 theme: jekyll-theme-minimal
+
+collections:
+  articles:
+    output: true
+  commands:
+    output: true
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'README.md'
+  - 'CONTRIBUTING.md'
+  - 'LICENSE'
+  - '.gitignore'
+  - '.project'
+  - 'run.sh'
+  - '/vendor'
+  - '/.settings'
+  - '/.bundle'
+  - 'pagefind'
