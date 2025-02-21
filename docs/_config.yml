@@ -1,4 +1,6 @@
 theme: jekyll-theme-minimal
+title: Eclipse Equinox Documentation
+description: This is the documentation of the Eclipse Equinox Framework.
 
 collections:
   articles:

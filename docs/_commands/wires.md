@@ -1,16 +1,18 @@
 ---
 layout: default
 title: wires [bundleID]
-summary: Prints information about the wiring of a particular bundle                              
+summary: Prints information about the wiring of a particular bundle
 ---
 
 ## Description
 
 {{page.summary}}
 
+This command is useful for debugging OSGi applications. Especially when you want to see how Bundle A is wired to other bundles and why. 
+
 ## Example
 
-The following shows the wiring of the **Gson** bundle in an application.
+The following shows the wiring of the **Gson** bundle in an application, and you want to see which other bundles are consuming this gson bundle.
 
 - Start your app 
 - The bundle for equinox console should be started
@@ -73,7 +75,7 @@ You see a list of bundles which consume Bundle `com.google.gson 2.10.1` and also
 
 **Related links:**
 
-- Equinox Console Shell: https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Fguide%2Fconsole_shell.htm
-- Maven Cenrtal: https://mvnrepository.com/artifact/org.eclipse.platform/org.eclipse.equinox.console
-- Source code: https://github.com/eclipse-equinox/equinox/blob/ac75ce248e29b36ef8fd9e94e38869de3043907f/bundles/org.eclipse.equinox.console/src/org/eclipse/equinox/console/commands/WireCommand.java#L50
+- [Eclipse Console Shell](https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Fguide%2Fconsole_shell.htm) 
+- [Maven Central](https://mvnrepository.com/artifact/org.eclipse.platform/org.eclipse.equinox.console)
+- [Source code](https://github.com/eclipse-equinox/equinox/blob/ac75ce248e29b36ef8fd9e94e38869de3043907f/bundles/org.eclipse.equinox.console/src/org/eclipse/equinox/console/commands/WireCommand.java#L50)
 
